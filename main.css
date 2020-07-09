@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica Neue, Arial;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+    .navBar a {
+        float: left;
+        color: #8B93FF;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navBar a:hover {
+        background-color: #FFDE59;
+        color: black;
+    }
+    
+    .navBar a.active {
+        background-color: #8B93FF;
+        color: white;
+    }
+
+.footer {
+    color:black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #7DD957;
+    border-top: #8B93FF solid;
+}
+
+.haveQuestions {
+    display: grid;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    border-bottom: black solid;
+
+}
+
+.contactForm {
+    font-weight: 450;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+    #questionsBox {
+        font-family: Helvetica Neue, Arial;
+        height: 100px;
+        width: 250px;
+    }
