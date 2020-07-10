@@ -1,32 +1,60 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: Helvetica Neue, Arial;
 }
 
-.navBar {
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    overflow: hidden;
-  }
-  
-    .navBar a {
-        float: left;
-        color: #8B93FF;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-    
-    .navBar a:hover {
-        background-color: #FFDE59;
-        color: black;
-    }
-    
-    .navBar a.active {
-        background-color: #8B93FF;
-        color: white;
-    }
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+    color: rgb(130, 23, 156);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(255, 225, 56);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(255, 225, 56, 0.534);
+}
 
 .footer {
     color:black;
@@ -36,7 +64,9 @@ body {
     width: 100%;
     text-align: center;
     background-color: #7DD957;
-    border-top: #8B93FF solid;
+    border-top: #8B93FF solid 1px;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
 }
 
 .haveQuestions {
