@@ -69,6 +69,10 @@ button:hover {
     padding-bottom: .5rem;
 }
 
+.mainHead {
+    text-align: center;
+}
+
 .haveQuestions {
     display: grid;
     position: relative;
@@ -90,3 +94,8 @@ button:hover {
         height: 100px;
         width: 250px;
     }
+
+.startMessage {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
